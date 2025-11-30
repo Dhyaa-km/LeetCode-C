@@ -3,7 +3,7 @@
 int main() {
     int Array1[] = {1, 2, 3, 5, 6, 7};
     int Array2[] = {3, 4, 6, 7};
-    int A3[100]; // Assuming a maximum size
+    int A3[100]; 
     int count = 0;
 
     for (int i = 0; i < sizeof(Array1) / sizeof(Array1[0]); i++) {
