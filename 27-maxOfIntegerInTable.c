@@ -9,9 +9,9 @@ for ( i = 0; i < 10; i++)
     scanf("%d", &tab[i]);    
 
     if (max<tab[i])
-{
-    max = tab[i]  ;  
-}
+    {
+        max = tab[i];  
+    }
 }
 
 printf("the maximum is: %d", max);

@@ -3,7 +3,7 @@
 #include <stdio.h>
 int main(){
     int i , j , arr[3][2] ;
-
+    // arr[row][column]
 
     for (i = 0; i < 3; i++)
     {
@@ -67,7 +67,7 @@ int main(){
 
     int column , row, sum = 0, matrix[10][10];
     
-float avrage = 0;
+    float avrage = 0;
 
 printf("give the nbrs of rows: ");
 scanf("%d", &row);
@@ -129,12 +129,15 @@ return 0;
 
 
 
-/*
+/* 
 //multiply two matrix
 #include <stdio.h>
 int main(){
 
-int i, j, mat1[2][2]={{5,1},{4,3}}, mat2[2][2]={{2,3},{4,6}},  resMat[2][2];
+int i, j, mat1[2][2]={{5,1},
+                      {4,3}},
+                       mat2[2][2]={{2,3},
+                                   {4,6}}, resMat[2][2];
     
     for ( i = 0; i < 2; i++)
     {
@@ -164,12 +167,12 @@ int i, j, mat1[2][2]={{5,1},{4,3}}, mat2[2][2]={{2,3},{4,6}},  resMat[2][2];
     printf("\n");
 
 return 0;
-}*/
+} */
 
 
 
 
-/*
+/* 
 // calculate the transpose of the matrix
 #include <stdio.h>
 int main(){
@@ -209,7 +212,7 @@ int main(){
         
     }
 
-    printf("the transopose of this matrix is: \n");
+    printf("the transpose of this matrix is: \n");
     for ( i = 0; i < rows; i++)
     {
         for ( j = 0; j < column; j++)
@@ -220,7 +223,7 @@ int main(){
     }
  
     return 0;
-}*/
+} */
 
 
 
@@ -324,7 +327,7 @@ int sumDiagonal(int result){
         {
             printf("%d ", mat[i][j]);            
         }
-        printf("\n");
+        printf("\n");  
     }
     for ( i = 0; i < row; i++)
     {

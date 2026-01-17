@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
 int i ,tab[10], max1, max2;
-
+// fill the array
 for ( i = 0; i < 10; i++)
 {
    printf("tab[%d]: ", i+1);

@@ -1,4 +1,4 @@
-/* 
+
 
 // the matrix 3d 
 #include <stdio.h>
@@ -46,5 +46,5 @@ for ( i = 0; i < dimension; i++)
 printf("the sum of all element in the matrix is: %d", sum);
 
     return 0;
-}*/
+}
 
